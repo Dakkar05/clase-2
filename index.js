@@ -22,8 +22,8 @@ respuesta.end('{"mensaje":"es un hola mundo en json"}');
 console.log(peticion);
 }
 
-app.on('request',mensaje);
-var port = process.env.PORT || 8080;
+//app.on('request',mensaje);
+var port = process.env.PORT || 8080
 app.listen(port,function(){
     console.log("el servidor se inicio correctamente")
 }
