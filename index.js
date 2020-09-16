@@ -1,7 +1,7 @@
 const express=require("express")
 const body_parser = require("body-parser")
-var http=require("http");
-var server=http.createServer();
+//var http=require("http");
+//var server=http.createServer();
 const app=express();
 var connection=require('./conexionBase');
 const rutas=require('./rutas');
