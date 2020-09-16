@@ -1,4 +1,5 @@
 const { raw } = require("body-parser");
+//const edificio = require("./modeloedificio");
 
 const express=require('express'),
 rutas=express.Router(),

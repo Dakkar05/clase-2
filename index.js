@@ -23,7 +23,8 @@ console.log(peticion);
 }
 
 app.on('request',mensaje);
-app.listen(8080,function(){
+var port = process.env.PORT || 8080;
+app.listen(port,function(){
     console.log("el servidor se inicio correctamente")
 }
 ); 
